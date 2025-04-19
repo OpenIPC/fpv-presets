@@ -1,6 +1,6 @@
-version: 443bbef045d08eefc6d3455dc8eee65cc8fa3e53
-last_updated: '2025-04-19T00:54:40.076Z'
-total_presets: 4
+version: 4ad410f88a5a0dca55342ab342b5c5ec6399ed05
+last_updated: '2025-04-19T16:57:19.442Z'
+total_presets: 5
 presets:
   - name: default-mario-aio
     path: presets/default-mario-aio
@@ -55,3 +55,12 @@ presets:
     files:
       - wfb.yaml
       - majestic.yaml
+  - name: vtxmenu-041725
+    path: presets/vtxmenu-041725
+    category: FPV
+    author: OpenIPC
+    description: VTXMenu
+    tags:
+      - vtxmenu-041725
+    status: Community
+    files: []
