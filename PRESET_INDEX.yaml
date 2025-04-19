@@ -1,6 +1,6 @@
-version: 1c4fadb2c4254d70a7c15cbe41e02ea669cae9c5
-last_updated: '2025-04-14T00:59:34.622Z'
-total_presets: 6
+version: 443bbef045d08eefc6d3455dc8eee65cc8fa3e53
+last_updated: '2025-04-19T00:54:40.076Z'
+total_presets: 4
 presets:
   - name: default-mario-aio
     path: presets/default-mario-aio
@@ -43,19 +43,6 @@ presets:
       - wfb.conf
       - telemetry.conf
       - majestic.yaml
-  - name: emax-preset
-    path: presets/emax-preset-vtxmenu
-    category: FPV
-    author: egirlfpv
-    description: msp menu, tx power mw, add alink in msp menu
-    tags:
-      - emax
-      - msp
-    status: Experimental
-    files:
-      - wfb.conf
-      - telemetry.conf
-      - majestic.yaml
   - name: high-power-fpv
     path: presets/high-power-fpv
     category: FPV
@@ -67,17 +54,4 @@ presets:
     status: Experimental
     files:
       - wfb.yaml
-      - majestic.yaml
-  - name: runcam2-preset-vtxmenu
-    path: presets/runcam2-preset-vtxmenu
-    category: FPV
-    author: egirlfpv
-    description: msp menu, tx power mw, add alink in msp menu
-    tags:
-      - runcam
-      - msp
-    status: Experimental
-    files:
-      - wfb.conf
-      - telemetry.conf
       - majestic.yaml
