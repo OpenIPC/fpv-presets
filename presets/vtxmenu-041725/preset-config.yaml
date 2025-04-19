@@ -1,0 +1,10 @@
+name: "vtxmenu-041725"
+author: "OpenIPC"
+description: "VTXMenu"
+category: "FPV"
+sensor: ""  # Set sensor file if needed
+status: "Community"
+tags: ["vtxmenu-041725"]
+files:
+addtional_files:
+  - vtxmenu.ini    
