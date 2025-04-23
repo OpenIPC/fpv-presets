@@ -5,6 +5,6 @@ category: "FPV"
 sensor: ""  # Set sensor file if needed
 status: "Community"
 tags: ["vtxmenu-041725"]
-files:
+files: {}
 addtional_files:
   - vtxmenu.ini    
