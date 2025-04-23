@@ -17,19 +17,7 @@ files:
     broadcast.fec_n: "12"  
     telemetry.serial: ttyS2
     telemetry.router: msposd
-  wfb.conf:
-    txpower: "1"
-    channel: "161"
-    driver_txpower_override: "20"
-    stbc: "1"
-    ldpc: "1"
-    mcs_index: "1"
-    fec_k: "8"
-    fec_n: "12"
-  telemetry.conf:
-    serial: /dev/ttyS2
-    # 2 for msposd
-    router: 0 
+  
   majestic.yaml:
     fpv.enabled: "true"
     fpv.noiseLevel: "0"
