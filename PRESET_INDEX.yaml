@@ -1,5 +1,5 @@
-version: 588cb27eda1d11edfbd400fff0d043cf62e5248e
-last_updated: '2025-04-23T00:58:09.354Z'
+version: 787c5dd954b0836296d279466e2064972f0d259f
+last_updated: '2025-04-23T18:29:18.220Z'
 total_presets: 5
 presets:
   - name: default-mario-aio
@@ -12,10 +12,38 @@ presets:
       - aio
     status: Official
     files:
-      - wfb.yaml
-      - wfb.conf
-      - telemetry.conf
-      - majestic.yaml
+      wfb.yaml:
+        wireless.channel: '161'
+        wireless.txpower: '20'
+        broadcast.stbc: '1'
+        broadcast.ldpc: '1'
+        broadcast.mcs_index: '1'
+        broadcast.tun_index: '1'
+        broadcast.fec_k: '8'
+        broadcast.fec_n: '12'
+        telemetry.serial: ttyS2
+        telemetry.router: msposd
+      wfb.conf:
+        txpower: '1'
+        channel: '161'
+        driver_txpower_override: '20'
+        stbc: '1'
+        ldpc: '1'
+        mcs_index: '1'
+        fec_k: '8'
+        fec_n: '12'
+      telemetry.conf:
+        serial: /dev/ttyS2
+        router: 0
+      majestic.yaml:
+        fpv.enabled: 'true'
+        fpv.noiseLevel: '0'
+        system.logLevel: debug
+        video0.codec: h265
+        video0.fps: '60'
+        video0.bitrate: '4096'
+        video0.size: 1920x1080
+    additional_files: []
   - name: default-runcam-wifilink
     path: presets/default-runcam-wifilink
     category: FPV
@@ -26,10 +54,38 @@ presets:
       - wifilink
     status: Official
     files:
-      - wfb.yaml
-      - wfb.conf
-      - telemetry.conf
-      - majestic.yaml
+      wfb.yaml:
+        wireless.channel: '161'
+        wireless.txpower: '1'
+        broadcast.stbc: '0'
+        broadcast.ldpc: '0'
+        broadcast.mcs_index: '1'
+        broadcast.tun_index: '1'
+        broadcast.fec_k: '8'
+        broadcast.fec_n: '12'
+        telemetry.serial: ttyS2
+        telemetry.router: msposd
+      wfb.conf:
+        txpower: '1'
+        channel: '161'
+        driver_txpower_override: '1'
+        stbc: '0'
+        ldpc: '0'
+        mcs_index: '1'
+        fec_k: '8'
+        fec_n: '12'
+      telemetry.conf:
+        serial: /dev/ttyS2
+        router: 0
+      majestic.yaml:
+        fpv.enabled: 'true'
+        fpv.noiseLevel: '0'
+        system.logLevel: debug
+        video0.codec: h265
+        video0.fps: '60'
+        video0.bitrate: '4096'
+        video0.size: 1920x1080
+    additional_files: []
   - name: default-ultrasight
     path: presets/default-ultrasight
     category: FPV
@@ -39,10 +95,38 @@ presets:
       - default-ultrasight
     status: Community
     files:
-      - wfb.yaml
-      - wfb.conf
-      - telemetry.conf
-      - majestic.yaml
+      wfb.yaml:
+        wireless.channel: '161'
+        wireless.txpower: '1'
+        broadcast.stbc: '0'
+        broadcast.ldpc: '0'
+        broadcast.mcs_index: '1'
+        broadcast.tun_index: '1'
+        broadcast.fec_k: '8'
+        broadcast.fec_n: '12'
+        telemetry.serial: ttyS2
+        telemetry.router: msposd
+      wfb.conf:
+        txpower: '1'
+        channel: '161'
+        driver_txpower_override: '20'
+        stbc: '1'
+        ldpc: '1'
+        mcs_index: '1'
+        fec_k: '8'
+        fec_n: '12'
+      telemetry.conf:
+        serial: /dev/ttyS2
+        router: 0
+      majestic.yaml:
+        fpv.enabled: 'true'
+        fpv.noiseLevel: '0'
+        system.logLevel: debug
+        video0.codec: h265
+        video0.fps: '60'
+        video0.bitrate: '4096'
+        video0.size: 1920x1080
+    additional_files: []
   - name: high-power-fpv
     path: presets/high-power-fpv
     category: FPV
@@ -53,8 +137,23 @@ presets:
       - fpv
     status: Experimental
     files:
-      - wfb.yaml
-      - majestic.yaml
+      wfb.yaml:
+        wireless.channel: '161'
+        wireless.txpower: '20'
+        broadcast.stbc: '0'
+        broadcast.ldpc: '0'
+        broadcast.mcs_index: '1'
+        broadcast.tun_index: '1'
+        broadcast.fec_k: '8'
+        broadcast.fec_n: '12'
+        telemetry.serial: ttyS2
+        telemetry.router: msposd
+      majestic.yaml:
+        fpv.enabled: 'false'
+        system.logLevel: debug
+        video0.codec: h264
+        video0.fps: '120'
+    additional_files: []
   - name: vtxmenu-041725
     path: presets/vtxmenu-041725
     category: FPV
@@ -63,4 +162,5 @@ presets:
     tags:
       - vtxmenu-041725
     status: Community
-    files: []
+    files: {}
+    additional_files: []
