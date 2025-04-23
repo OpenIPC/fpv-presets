@@ -1,5 +1,5 @@
-version: cbe89586608502cf189458395a9c9c2c9e013ccd
-last_updated: '2025-04-23T18:34:56.201Z'
+version: b1dc0ebb543d53e40c1ff6c48e687a49d45416be
+last_updated: '2025-04-23T18:37:54.389Z'
 total_presets: 5
 presets:
   - name: default-mario-aio
@@ -23,18 +23,6 @@ presets:
         broadcast.fec_n: '12'
         telemetry.serial: ttyS2
         telemetry.router: msposd
-      wfb.conf:
-        txpower: '1'
-        channel: '161'
-        driver_txpower_override: '20'
-        stbc: '1'
-        ldpc: '1'
-        mcs_index: '1'
-        fec_k: '8'
-        fec_n: '12'
-      telemetry.conf:
-        serial: /dev/ttyS2
-        router: 0
       majestic.yaml:
         fpv.enabled: 'true'
         fpv.noiseLevel: '0'
@@ -65,18 +53,6 @@ presets:
         broadcast.fec_n: '12'
         telemetry.serial: ttyS2
         telemetry.router: msposd
-      wfb.conf:
-        txpower: '1'
-        channel: '161'
-        driver_txpower_override: '1'
-        stbc: '0'
-        ldpc: '0'
-        mcs_index: '1'
-        fec_k: '8'
-        fec_n: '12'
-      telemetry.conf:
-        serial: /dev/ttyS2
-        router: 0
       majestic.yaml:
         fpv.enabled: 'true'
         fpv.noiseLevel: '0'
@@ -106,18 +82,6 @@ presets:
         broadcast.fec_n: '12'
         telemetry.serial: ttyS2
         telemetry.router: msposd
-      wfb.conf:
-        txpower: '1'
-        channel: '161'
-        driver_txpower_override: '20'
-        stbc: '1'
-        ldpc: '1'
-        mcs_index: '1'
-        fec_k: '8'
-        fec_n: '12'
-      telemetry.conf:
-        serial: /dev/ttyS2
-        router: 0
       majestic.yaml:
         fpv.enabled: 'true'
         fpv.noiseLevel: '0'
