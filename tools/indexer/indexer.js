@@ -60,7 +60,9 @@ function generatePresetIndex(repoPath, outputPath = null) {
                 description: presetConfig.description || '',
                 tags: Array.isArray(presetConfig.tags) ? presetConfig.tags : [],
                 status: presetConfig.status || 'Draft',
-                files: presetConfig.files ? Object.keys(presetConfig.files) : []
+                files: presetConfig.files || {},
+                additional_files: Array.isArray(presetConfig.additional_files) ? presetConfig.additional_files : []
+
               };
               
               console.log(`Found preset: ${preset.name} at ${preset.path}`);
