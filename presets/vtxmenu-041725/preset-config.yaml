@@ -6,5 +6,5 @@ sensor: ""  # Set sensor file if needed
 status: "Community"
 tags: ["vtxmenu-041725"]
 files: {}
-addtional_files:
+additional_files:
   - vtxmenu.ini    
