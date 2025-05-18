@@ -1,6 +1,6 @@
-version: e75104c4581cb05e5ea9da534a901de912e1f86c
-last_updated: '2025-05-18T01:03:58.382Z'
-total_presets: 5
+version: e2cc2620b04eec61b118653c5cc936a465a2a9db
+last_updated: '2025-05-18T15:36:11.868Z'
+total_presets: 6
 presets:
   - name: default-mario-aio
     path: presets/default-mario-aio
@@ -126,6 +126,17 @@ presets:
     tags:
       - vtxmenu-041725
     status: Community
+    files: {}
+    additional_files:
+      - vtxmenu.ini
+  - name: vtxmenu-202505
+    path: presets/vtxmenu-202505
+    category: FPV
+    author: OpenIPC
+    description: Latest VTXMenu as of May 2025
+    tags:
+      - vtxmenu-202505
+    status: Official
     files: {}
     additional_files:
       - vtxmenu.ini
