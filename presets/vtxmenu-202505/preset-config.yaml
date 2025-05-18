@@ -1,0 +1,10 @@
+name: "vtxmenu-202505"
+author: "OpenIPC"
+description: "Latest VTXMenu as of May 2025"
+category: "FPV"
+sensor: ""  # Set sensor file if needed
+status: "Official"
+tags: ["vtxmenu-202505"]
+files: {}
+additional_files:
+  - vtxmenu.ini    
