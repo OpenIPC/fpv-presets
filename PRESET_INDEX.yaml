@@ -1,5 +1,5 @@
-version: deb1af6b91e0e4da611c508a2d35d5cb0b9ee01a
-last_updated: '2025-10-09T00:56:18.730Z'
+version: 4cec783c2f500473e8c5e5b54cc56f725a71bea3
+last_updated: '2025-10-10T00:55:58.219Z'
 total_presets: 6
 presets:
   - name: default-mario-aio
