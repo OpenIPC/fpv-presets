@@ -2,6 +2,9 @@
 
 Collection of preconfigured presets for OpenIPC FPV Configurator application.
 
+***USE AT YOUR OWN RISK.***
+***A lot of these presets are outdated, another solution is being designed.***
+
 ## Overview
 
 OpenIPC FPV Presets provide ready-to-use configurations for FPV camera systems. These presets help you quickly set up your camera with optimal settings for different scenarios, such as racing, freestyle, or long-range flying.
