@@ -11,8 +11,8 @@ on:
   workflow_dispatch:
   
   # Run on a schedule (e.g., daily at midnight UTC)
-  schedule:
-    - cron: '0 0 * * *'
+  #schedule:
+  #  - cron: '0 0 * * *'
 
 permissions:
   contents: write  # Needed to commit back to the repository
